@@ -32,22 +32,15 @@ class INatDataset(ImageFolder):
         self.root_dir = root
         data = []
         for i in range(len(self.annotations)):
-            # 获取索引为 index 的行的所有数据，并存入一个列表中
-
             row_data = str(self.annotations.iloc[i, 0])
-            # 将该行数据添加到 data 列表中
             data.append(row_data)
         mos = []
         for i in range(len(self.annotations)):
-            # 获取索引为 index 的行的所有数据，并存入一个列表中
             annotations = self.annotations.iloc[i, 1]
             annotations = annotations.astype('float').reshape(-1, 1)
-
-            # 取出嵌套列表中的第一个元素
             annotations = annotations[0]
             annotations = annotations / 10
             annotations.astype('float32')
-            # 将该行数据添加到 data 列表中
             mos.append(annotations)
         mos = torch.tensor(mos)
         sample = []
