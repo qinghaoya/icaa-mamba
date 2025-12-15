@@ -1,3 +1,3 @@
 # icaa-mamba
-train:
-python main.py
+pip install -r vim_requirements.txt
+train: python main.py
