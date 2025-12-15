@@ -7,13 +7,22 @@ This repository contains the implementation of **ICAA-Mamba**, a deep learning m
 ## 📌 Requirements
 
 - Python >= 3.8
-- CUDA (optional, recommended for training)
-- PyTorch (version should be compatible with your CUDA)
+- CUDA 11.8
+- PyTorch 2.1.1
 
-Install dependencies via:
+---
+
+## 🔧 Installation
+
+Install the required dependencies using:
 
 ```bash
 pip install -r vim_requirements.txt
-```bash
-python main.py
+It is recommended to install the dependencies in a virtual environment.
 
+🚀 Training
+To start training, run:
+
+```bash
+
+python main.py
