@@ -23,6 +23,4 @@ It is recommended to install the dependencies in a virtual environment.
 🚀 Training
 To start training, run:
 
-```bash
-
 python main.py
