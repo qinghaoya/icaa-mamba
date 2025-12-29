@@ -20,18 +20,23 @@ Install the required dependencies using:
 pip install -r vim_requirements.txt
 It is recommended to install the dependencies in a virtual environment.
 
-DataSet ICAA17K
+📊 Dataset
+ICAA17K
 
 🚀 Training
 To start training, run:
 
+bash
+复制代码
 python main.py
-
 📥 Download Pre-trained Model
 The pre-trained model is available on Microsoft OneDrive:
-[Microsoft OneDrive Download Link](https://1drv.ms/u/c/d479c0ef59c14f73/IQC7rNV6X9f3RYHSvalBmnYTAXI8PxtOKbnG2jXxgWcnsBk?e=KJQWmC)
+
+👉 https://1drv.ms/u/c/d479c0ef59c14f73/IQC7rNV6X9f3RYHSvalBmnYTAXI8PxtOKbnG2jXxgWcnsBk?e=KJQWmC
 
 🚦 Start Testing
 After downloading, run the following command:
-```bash
+
+bash
+复制代码
 python test.py
