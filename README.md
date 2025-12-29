@@ -27,7 +27,14 @@ To start training, run:
 
 python main.py
 
-🚀 Testing
-To start testing, run:
+🚀 Model Download & Testing Guide
 
+📥 Download Pre-trained Model
+Download the pre-trained model file from Microsoft OneDrive using the link below:
+🔗 Click here to access OneDrive download page
+
+🚦 Start Testing
+After downloading, run the following command in your terminal to begin testing:
+
+bash
 python test.py
