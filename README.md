@@ -26,3 +26,8 @@ DataSet ICAA17K
 To start training, run:
 
 python main.py
+
+🚀 Testing
+To start testing, run:
+
+python test.py
