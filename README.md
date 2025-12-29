@@ -37,7 +37,6 @@ To start training, run:
 
 python main.py
 
-
 Testing
 
 After downloading the pre-trained model, run:
