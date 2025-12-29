@@ -27,14 +27,11 @@ To start training, run:
 
 python main.py
 
-🚀 Model Download & Testing Guide
-
 📥 Download Pre-trained Model
-Download the pre-trained model file from Microsoft OneDrive using the link below:
-🔗 Click here to access OneDrive download page
+The pre-trained model is available on **Microsoft OneDrive**:  
+**[Microsoft OneDrive Download Link](https://1drv.ms/u/c/d479c0ef59c14f73/IQC7rNV6X9f3RYHSvalBmnYTAXI8PxtOKbnG2jXxgWcnsBk?e=KJQWmC)**
 
 🚦 Start Testing
-After downloading, run the following command in your terminal to begin testing:
-
-bash
+After downloading, run the following command:
+```bash
 python test.py
