@@ -20,7 +20,7 @@ Install the required dependencies using:
 Download Pre-trained Model
 
 The pre-trained model is available on Microsoft OneDrive:
-[Microsoft OneDrive](https://1drv.ms/u/c/d479c0ef59c14f73/IQC7rNV6X9f3RYHSvalBmnYTAXI8PxtOKbnG2jXxgWcnsBk?e=KJQWmC)
+[Microsoft OneDrive](https://1drv.ms/u/c/d479c0ef59c14f73/IQAQ44hCIJYFSogppBoZWMKNAeAEvUzoYgOhRs9vFIXk_JQ?e=Rdk6WA)
 
 ```bash
 pip install -r vim_requirements.txt
