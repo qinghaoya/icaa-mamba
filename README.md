@@ -1,42 +1,42 @@
-# ICAA-Mamba
+ICAA-Mamba
 
-This repository contains the implementation of **ICAA-Mamba**, a deep learning model based on the Mamba architecture.
+This repository contains the implementation of ICAA-Mamba, a deep learning model based on the Mamba architecture.
 
----
+Requirements
 
-## 📌 Requirements
+Python >= 3.8
 
-- Python >= 3.8
-- CUDA 11.8
-- PyTorch 2.1.1
+CUDA 11.8
 
----
+PyTorch 2.1.1
 
-## 🔧 Installation
+Installation
 
 Install the required dependencies using:
 
-```bash
 pip install -r vim_requirements.txt
+
+
 It is recommended to install the dependencies in a virtual environment.
 
-📊 Dataset
+Dataset
+
 ICAA17K
 
-🚀 Training
+Training
+
 To start training, run:
 
-bash
-复制代码
 python main.py
-📥 Download Pre-trained Model
+
+Download Pre-trained Model
+
 The pre-trained model is available on Microsoft OneDrive:
 
-👉 https://1drv.ms/u/c/d479c0ef59c14f73/IQC7rNV6X9f3RYHSvalBmnYTAXI8PxtOKbnG2jXxgWcnsBk?e=KJQWmC
+https://1drv.ms/u/c/d479c0ef59c14f73/IQC7rNV6X9f3RYHSvalBmnYTAXI8PxtOKbnG2jXxgWcnsBk?e=KJQWmC
 
-🚦 Start Testing
+Testing
+
 After downloading, run the following command:
 
-bash
-复制代码
 python test.py
