@@ -20,6 +20,8 @@ Install the required dependencies using:
 pip install -r vim_requirements.txt
 It is recommended to install the dependencies in a virtual environment.
 
+DataSet ICAA17K
+
 🚀 Training
 To start training, run:
 
